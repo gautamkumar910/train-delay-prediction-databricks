@@ -1,0 +1,38 @@
+# Train Delay Prediction System - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Data Science
+pandas==2.1.4
+numpy==1.26.3
+
+# Machine Learning
+scikit-learn==1.4.0
+xgboost==2.0.3
+
+# RAG & Embeddings
+chromadb==0.4.22
+
+# API Clients
+requests==2.31.0
+openai==1.12.0  # Optional - for LLM enhancement
+
+# Databricks Integration (pre-installed in Databricks Runtime)
+# pyspark>=3.5.0
+# databricks-sdk>=0.18.0
+# mlflow>=2.10.0
+
+# Streamlit App (for Databricks Apps deployment)
+streamlit==1.31.0
+plotly==5.18.0  # For interactive charts in app
+
+# Presentation Generation (optional)
+python-pptx==0.6.23
+
+# HuggingFace Models (optional - for IndicTrans2)
+# transformers==4.38.0
+# torch==2.2.0
+# sentencepiece==0.1.99
+
+# Development Tools (optional)
+# jupyter==1.0.0
+# ipywidgets==8.1.1
